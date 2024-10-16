@@ -84,15 +84,14 @@ public class Invoice {
 		{
 			setPricePerItem(p1);
 		}	
-		
 	}
 	
+
 	public void display()
 	{
-		System.out.println(getPartNumber()+ "                 "+ getPartDesc()+ "                  "+getQuant()+"            "+getPricePerItem());
+		System.out.println(getPartNumber()+ "                 "+ getPartDesc()+ "          "+getQuant()+"            "+getPricePerItem());
 	
 	}
-	
 	
 	public double TotalPrice()
 	{

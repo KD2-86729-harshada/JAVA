@@ -8,17 +8,15 @@ public class Tester {
 		Invoice I1 = new Invoice();
 		I1.accept();
 		
-		
-		
 		Invoice I2 = new Invoice();
         I2.accept();
-		
 		
 		Invoice I3 = new Invoice();
 		I3.accept();
 		
-		
-		System.out.println("***************************Details**************************\n");
+		System.out.println("************************************************************");
+		System.out.println("                      Details");
+		System.out.println("************************************************************");
 		System.out.println("Part_Number"+ "      "+ "Part_Desc"+ "      "+"Quantity"+"      "+"pricePerItem");
 		I1.display();
 		I2.display();
